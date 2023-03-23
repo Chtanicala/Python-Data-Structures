@@ -1,5 +1,3 @@
-
-import time
 #Python stack created by list
 pythonStack = []
 
@@ -13,7 +11,7 @@ print(pythonStack)
 pythonStack.pop()
 print(pythonStack)
 
-#Issues with a list are speed as the lsit grows
+#Issues with a list are memory issues as it grows
 
 #Using deque creates and actual stack that is faster as it is a doubly linked list. Faster for adding at the end/removing the end, but slower for parsing through the structure for a specific item
 from collections import deque
